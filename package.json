@@ -1,0 +1,20 @@
+{
+  "name": "m3-w3-d3-homework",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "lite": "lite-server",
+    "scss": "sass scss/styles.scss css/styles.css",
+    "start": "npm run watch:all",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:scss": "sass --watch scss/styles.scss css/styles.css",
+    "watch:all": "run-p watch:scss lite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "sass": "^1.77.8"
+  }
+}
